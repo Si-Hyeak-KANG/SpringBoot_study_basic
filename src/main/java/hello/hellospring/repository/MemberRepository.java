@@ -5,6 +5,7 @@ import hello.hellospring.domain.Member;
 import java.util.List;
 import java.util.Optional;
 
+// 기계적, 동작에 의존한 용어를 메소드로 선정
 public interface MemberRepository {
     Member save(Member member);
     Optional<Member> findById(Long id);
